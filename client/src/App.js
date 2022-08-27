@@ -22,13 +22,13 @@ const Container = styled(Box)(({ theme }) => ({
 
 function App() {
   return (
-    <Container>
+    <Box>
       <Header />
-      <Box>
+      <Container>
         <Infoheader />
         <Articles />
-      </Box>
-    </Container>
+      </Container>
+    </Box>
   );
 }
 
